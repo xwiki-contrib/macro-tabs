@@ -31,7 +31,7 @@
   </parent>
   <groupId>org.xwiki.contrib</groupId>
   <artifactId>xwiki-macro-tabs</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.1</version>
   <name>Contrib - Macros - Tabs Macro</name>
   <description>Creates tabbed view for specified content areas wrapped in DIVs with unique ids</description>
   <packaging>xar</packaging>
@@ -40,6 +40,7 @@
     <connection>scm:git:git://github.com/xwiki-contrib/macro-tabs.git</connection>
     <developerConnection>scm:git:git@github.com:xwiki-contrib/macro-tabs.git</developerConnection>
     <url>https://github.com/xwiki-contrib/macro-tabs</url>
+    <tag>xwiki-macro-tabs-1.0.1</tag>
   </scm>
   
   <properties>
