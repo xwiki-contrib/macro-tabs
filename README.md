@@ -1,1 +1,1 @@
-TBD
+Creates tabbed view for specified content areas wrapped in DIVs with unique ids
