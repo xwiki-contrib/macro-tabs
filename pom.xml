@@ -81,6 +81,17 @@
         <artifactId>xwiki-commons-tool-xar-plugin</artifactId>
         <version>${commons.version}</version>
       </plugin>
+		<plugin>
+			<artifactId>maven-enforcer-plugin</artifactId>
+			<executions>
+				<execution>
+					<id>enforce-javadoc-exists</id>
+					<configuration>
+						<skip>true</skip>
+					</configuration>
+				</execution>
+			</executions>
+		</plugin>
     </plugins>
   </build>
 </project>
