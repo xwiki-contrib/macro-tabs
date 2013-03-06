@@ -94,4 +94,20 @@
 		</plugin>
     </plugins>
   </build>
+  
+  	<profiles>
+		<profile>
+			<id>xwiki-staging</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<distributionManagement>
+				<repository>
+					<id>xwiki-staging</id>
+					<name>XWiki Staging Repository</name>
+					<url>http://nexus.xwiki.org/nexus/service/local/staging/deploy/maven2/</url>
+				</repository>
+			</distributionManagement>
+		</profile>
+	</profiles>
 </project>
