@@ -303,10 +303,11 @@ function switchTab(activatedTabId, tabsIdsArray) {
                 #set ($addResult = $tabIdsArray.add($tabEntryArray.get(0).trim()))
                 #set ($addResult = $tabNamesArray.add($tabEntryArray.get(1).trim()))
             #end
-
         #end
     #end
 ## generate tabs
+
+
 {{html}}
 &lt;div class="floatcontainer"&gt;
     &lt;ul class="xwikitabbar"&gt;
